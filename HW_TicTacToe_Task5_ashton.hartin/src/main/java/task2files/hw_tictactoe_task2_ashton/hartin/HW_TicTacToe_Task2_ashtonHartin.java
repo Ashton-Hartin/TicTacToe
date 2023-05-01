@@ -29,7 +29,7 @@ public class HW_TicTacToe_Task2_ashtonHartin
         Scanner scan2 = new Scanner(System.in);
         System.out.println("Do you wish to take the first turn?\nType either YES or NO: ");
         String turnOne = scan2.nextLine();
-        if("YES".equals(turnOne) || "Yes".equals(turnOne) || "yes".equals(turnOne))
+        if("YES".equals(turnOne) || "Yes".equals(turnOne) || "yes".equals(turnOne) || "Y".equals(turnOne) || "y".equals(turnOne))
         {
             printBoard(board);
             
@@ -61,7 +61,7 @@ public class HW_TicTacToe_Task2_ashtonHartin
                 printBoard(board);
             }
         }
-        else if(("NO".equals(turnOne) || "No".equals(turnOne) || "no".equals(turnOne)))
+        else if(("NO".equals(turnOne) || "No".equals(turnOne) || "no".equals(turnOne) || "N".equals(turnOne) || "n".equals(turnOne))
         {
             //While Loop that is used when the user chooses to let the game go first.
             while(true)
